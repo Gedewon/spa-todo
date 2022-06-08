@@ -1,51 +1,59 @@
-# Getting Started with Create React App
+# To-do list
 
-simple React config boilerplate
+SPA REACT js application is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
 
-<br>
+## Built With
 
-- [x] js bundler
-- [x] plugin
-  - [x] es and style lint
-  - [x] webpackServer and config
+- React
+- GitFlow
+- Linters
+- Webpack
 
-## Available Scripts
+## Live Demo
 
-1. rewrite the package.json file to reflect your project/ or do a clean installation by removing package.json but you have to keep in mind the dependencies and scripts
+[Live Demo Link](https://gedewon.github.io/spa-todo/dist/index.html)
 
-```
-npm init -y
-```
+## Getting Started
 
-2. install the modules
+To get a local copy up and running follow these simple example steps.
 
-```
-cd yourFoldername/ && npm i
-```
+1.  clone repo either through ssh / https
 
-<hr>
-In the project directory, you can run:
+> ssh
 
-```
-npm start
+```sh
+ git clone git@github.com:Gedewon/Todo.git
 ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> https
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.ormation.
-
-```
-npm run eject
+```sh
+ git clone https://github.com/Gedewon/Todo.git
 ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2.  the change directory to /Todo.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-```
-npm run build
+```sh
+cd Todo.git
 ```
 
-cheers :)
+3.install node dependency and open index.html with live server
+
+```sh
+ npm i
+```
+
+👤 **Gedewon**
+
+- GitHub: [Gedewon](https://github.com/Gedewon)
+- LinkedIn: [Gedewon](https://linkedin.com/in/gedewon)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Gedewon/Todo/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
