@@ -3,6 +3,9 @@ import TodosList from './component/TodosList/TodosList';
 import InputTodo from './component/InputTodo/InputTodo'
 import React,{ useEffect, useState } from 'react';
 import { v4 as uuidv4 } from "uuid";
+import { Route, Routes, Switch } from "react-router-dom"
+import About from './component/pages/About';
+import NotFound from './component/pages/404';
 function TodoContainer() {
   const [todoList,setTodoList] = useState([]);
   useEffect(()=>{
@@ -46,8 +49,27 @@ function TodoContainer() {
 
   return (
     <DefaultLayout> 
-    <InputTodo addTodoProps={addTodoItem} />
-    <TodosList todoList={todoList} handleChangeProps={handleChangeProps} deleteTodoProps={delTodo} setUpdate={setUpdate}/>
+      <Routes>
+          <Route exact path="/" element={
+
+            <React.Fragment>
+              <InputTodo addTodoProps={addTodoItem} />
+              <TodosList todoList={todoList} handleChangeProps={handleChangeProps} deleteTodoProps={delTodo} setUpdate={setUpdate}/>
+              </React.Fragment>
+          }
+          >
+          </Route>
+          <Route path="/about" element={
+
+            <About />
+          }>
+          </Route>
+          <Route path="*" element={
+
+            <NotFound />
+          }>
+          </Route>
+      </Routes>
     </DefaultLayout>
   );
 }
