@@ -1,0 +1,17 @@
+.navbar{
+    width: 25%;
+    padding: auto;
+    max-width: 200px;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
