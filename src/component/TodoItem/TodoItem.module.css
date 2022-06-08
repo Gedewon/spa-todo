@@ -1,16 +1,18 @@
-.show{
-    display: block;
+.show {
+  display: block;
 }
-.hide{
-    display: none;
+
+.hide {
+  display: none;
 }
-li{
-    list-style: none;
+
+li {
+  list-style: none;
 }
-.textInput{
-    width: 100%;
-    padding: 2px;
-    margin: 1px;
-    border: 1px solid #dfdfdf;
+
+.textInput {
+  width: 100%;
+  padding: 2px;
+  margin: 1px;
+  border: 1px solid #dfdfdf;
 }
-  
