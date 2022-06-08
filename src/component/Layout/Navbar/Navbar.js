@@ -4,11 +4,10 @@ function Navbar() {
   return (
     <div className={style.navbar}>
       <ul>
-    <li>
-      Navbar
-    </li>
+            <li>Home</li>
+            <li>About</li>
       </ul>
-      </div>
+    </div>
   )
 }
 
