@@ -11,7 +11,7 @@ SPA REACT js application is a tool that helps to organize your day. It simply li
 
 ## Live Demo
 
-[Live Demo Link](https://gedewon.github.io/spa-todo/dist/index.html)
+[Heroku] (https://mytodos-webapp.herokuapp.com/)
 
 ## Getting Started
 
