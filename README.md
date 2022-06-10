@@ -1,6 +1,6 @@
 # To-do list
 
-SPA REACT js application is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
+SPA-todo application is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.
 
 ## Built With
 
@@ -12,6 +12,7 @@ SPA REACT js application is a tool that helps to organize your day. It simply li
 ## Live Demo
 
 [Heroku] (https://mytodos-webapp.herokuapp.com/)
+[Netlify] (https://62a34cd664917400098b5c53--majestic-kitten-1ffb72.netlify.app/)
 
 ## Getting Started
 
@@ -22,19 +23,19 @@ To get a local copy up and running follow these simple example steps.
 > ssh
 
 ```sh
- git clone git@github.com:Gedewon/Todo.git
+ git@github.com:Gedewon/spa-todo.git
 ```
 
 > https
 
 ```sh
- git clone https://github.com/Gedewon/Todo.git
+ https://github.com/Gedewon/spa-todo.git
 ```
 
-2.  the change directory to /Todo.git
+2.  the change directory to /spa-todo.git
 
 ```sh
-cd Todo.git
+cd spa-todo.git
 ```
 
 3.install node dependency and open index.html with live server
