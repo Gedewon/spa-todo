@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin: 5%;
+  font-size: 65px;
+  color: gray;
+}
