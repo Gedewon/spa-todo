@@ -11,8 +11,8 @@ SPA-todo application is a tool that helps to organize your day. It simply lists 
 
 ## Live Demo
 
-[Heroku] (https://mytodos-webapp.herokuapp.com/)
-[Netlify] (https://62a34cd664917400098b5c53--majestic-kitten-1ffb72.netlify.app/)
+[Heroku](https://mytodos-webapp.herokuapp.com/) </br>
+[Netlify](https://62a34cd664917400098b5c53--majestic-kitten-1ffb72.netlify.app/)
 
 ## Getting Started
 
